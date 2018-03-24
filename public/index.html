@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="./script.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <p id="h">Currency Converter</p>
+        
+        <p class="label"><em>From:</em>    
+        <select name="currencies" id="from">
+            <option value="AUD">Australian Dollar</option>
+            <option value="POUND">British Pound</option>
+            <option value="CAD" >Canadian Dolar</option>
+            <option value="YUAN">Chinese Yuan</option>
+            <option value="DIRHAM">Emirati Dirham</option>
+            <option value="ETB">Ethiopian Birr</option>
+            <option value="EURO">Euro</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="RUPEE">Indian Rupee</option>
+            <option value="SHEKEL">Israeli Shekel</option>
+            <option value="YEN" >Japanese Yen</option>
+            <option value="RINGGIT">Malaysian Ringgit</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="RUBLE">Russian Ruble</option>
+            <option value="SRIYAL">Saudi Arabian Riyal</option>
+            <option value="SPD">Singapore Dollar</option>
+            <option value="RAND">South African Rand</option>
+            <option value="SKWON">South Korean Won</option>
+            <option value="SWF">Swiss Franc</option>
+            <option value="BAHT">Thai Baht</option>
+            <option value="LIRA">Turkish Lira</option>
+            <option value="USD" selected>US Dollar</option>
+
+        </select>
+        
+        <em class="label">To: 
+        <select name="currencies" id="to">
+            <option value="AUD">Australian Dollar</option>
+            <option value="POUND">British Pound</option>
+            <option value="CAD" >Canadian Dolar</option>
+            <option value="YUAN">Chinese Yuan</option>
+            <option value="DIRHAM">Emirati Dirham</option>
+            <option value="ETB">Ethiopian Birr</option>
+            <option value="EURO">Euro</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="RUPEE">Indian Rupee</option>
+            <option value="SHEKEL">Israeli Shekel</option>
+            <option value="YEN" >Japanese Yen</option>
+            <option value="RINGGIT">Malaysian Ringgit</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="RUBLE">Russian Ruble</option>
+            <option value="SRIYAL">Saudi Arabian Riyal</option>
+            <option value="SPD">Singapore Dollar</option>
+            <option value="RAND">South African Rand</option>
+            <option value="SKWON">South Korean Won</option>
+            <option value="SWF">Swiss Franc</option>
+            <option value="BAHT">Thai Baht</option>
+            <option value="LIRA">Turkish Lira</option>
+            <option value="USD" selected>US Dollar</option>
+        </select></em></p>
+        
+        <p class="label">Amount: <input class="inputs" type="number" id="amount"></p>
+        <button onclick="convert()">CONVERT</button><br><br>
+        <div><p id="p"></p></div>
+
+    </body>
+</html>
